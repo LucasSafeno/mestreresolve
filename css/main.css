@@ -45,5 +45,30 @@ img { max-width: 100%; }
 
 /*RODAPE*/
 
-.rodape { width: 100%; float: left; text-align: center; padding: 3% 4%; background-color: black;  }
+.rodape { width: 100%; float: left; text-align: center; padding: 3% 4%; background-color: black; margin-top: 1%;  }
+
+
+ /*########################### MEDIASCREEN ###################################################*/
+
+ @media screen and (min-width: 1024px){
+ 	.box{
+ 		width: 30%;
+ 		float: left;
+
+ 	}
+
+ 	.btn-close{
+ 		display: none;
+ 	}
+
+ 	 .btn-menu{
+ 		display: none;
+ 	}
+
+
+ 	.menu { width: auto; height: 56px; line-height: 56px; float: right; background-color: #F5F5F5; display: block!important; position: static; }
+	.menu li{ padding: 0; float: left; }
+	.menu li a{ color: #130400; font-size: 1em; padding: 15px;  }
+	.menu li a:hover { border: none; color : #da6709; }
+ }
 
