@@ -7,7 +7,7 @@
 
 /* ###### RESET ###### */
 * { margin: 0; padding: 0; box-sizing: border-box; border: 0; outline: none; font-weight: 300; font-size: 100%; }
-body{ background-color: rgba(225, 172, 213, 0.6);}
+body{ background-color: rgba(225, 172, 213, 0.6); color: white;}
 a {text-decoration: none; }
 ul { list-style: none; }
 img { max-width: 100%; }
@@ -27,17 +27,23 @@ img { max-width: 100%; }
 
 /* BANNER */
 
-.banner { width: 100%; float: left; padding: 3% 4%; text-align: center; background-color: rgba(0, 0,0, 0.5); border: 1px solid black;}
-.banner h1 { font-size: 1.5em; font-weight: bold; margin: 1% 1%; color: rgb(255, 223, 13); }
+.banner { width: 100%; float: left; padding: 3% 4%; text-align: center; background-color: rgba(0, 0,0, 0.5); border: 1px solid black;
+			text-transform: uppercase;}
+.banner h1 { font-weight: bold; margin: 1% 1%; color: rgb(255, 223, 13); }
 .banner h2 { color: white; }
-.banner a { font-size: 1.2em; color: #da6709; }
+.banner a { color: #da6709; }
 .banner p { color: white; }
 
 /* CONTEUDO */
 
 .conteudo { width: 100%; float: left; background-color: rgba(0, 0, 0, 0.3); margin-top: 1%;}
 
-.box { text-align: center; border: 1px solid white; margin-top: 2%; padding: 2% 2%;}
-.box h3 { font-size: 1.2em; color: white; font-weight: bold; margin: 1%;}
+.box { text-align: center; border-radius: 10px; margin: 2%; padding: 2% 2%; background-color: rgba(255, 255, 255, 0.3);}
+.box h3 { font-size: 1.2em; color: rgb(255, 223, 13); font-weight: bold; margin: 1%;}
+.box a { color: #da6709; }
 .box p { text-align: left; margin-bottom: 1%; }
+
+/*RODAPE*/
+
+.rodape { width: 100%; float: left; text-align: center; padding: 3% 4%; background-color: black;  }
 
