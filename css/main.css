@@ -7,7 +7,7 @@
 
 /* ###### RESET ###### */
 * { margin: 0; padding: 0; box-sizing: border-box; border: 0; outline: none; font-weight: 300; font-size: 100%; }
-body{ background-color: rgba(225, 172, 213, 0.6); color: white;}
+body{ background-color: #bc8f8f; color: white;}
 a {text-decoration: none; }
 ul { list-style: none; }
 img { max-width: 100%; }
@@ -38,10 +38,11 @@ img { max-width: 100%; }
 
 .conteudo { width: 100%; float: left; background-color: rgba(0, 0, 0, 0.3); margin-top: 1%;}
 
-.box { text-align: center; border-radius: 10px; margin: 2%; padding: 2% 2%; background-color: rgba(255, 255, 255, 0.3);}
+.box { position: relative; float: left; text-align: center; border-radius: 10px; margin: 2%; padding: 2% 2%; background-color: rgba(255, 255, 255, 0.3);}
 .box h3 { font-size: 1.2em; color: rgb(255, 223, 13); font-weight: bold; margin: 1%;}
 .box a { color: #da6709; }
 .box p { text-align: left; margin-bottom: 1%; }
+.box i { font-size: 2.5em;  padding: 8%; float: right;  }
 
 /*RODAPE*/
 
@@ -55,7 +56,11 @@ img { max-width: 100%; }
  		width: 30%;
  		float: left;
 
- 	}
+	 }
+	 
+	 .box i {
+		 padding: 10%;
+	 }
 
  	.btn-close{
  		display: none;
