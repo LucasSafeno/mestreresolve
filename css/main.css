@@ -52,15 +52,19 @@ img { max-width: 100%; }
  /*########################### MEDIASCREEN ###################################################*/
 
  @media screen and (min-width: 1024px){
- 	.box{
- 		width: 30%;
+	 
+	.logo {
+		width: 200px;
+		height: 100px;
+		background: url(../img/logo-large.png) no-repeat;
+	}
+	
+	.box{
+ 		width: 25%;
  		float: left;
 
 	 }
-	 
-	 .box i {
-		 padding: 10%;
-	 }
+
 
  	.btn-close{
  		display: none;
