@@ -38,7 +38,16 @@ img { max-width: 100%; }
 
 .conteudo { width: 100%; float: left; background-color: rgba(0, 0, 0, 0.3); margin-top: 1%;}
 
-.box { position: relative; float: left; text-align: center; border-radius: 10px; margin: 2%; padding: 2% 2%; background-color: rgba(255, 255, 255, 0.3);}
+.box { 
+		position: relative; 
+		float: left;
+		text-align: center; 
+		border-radius: 10px; 
+		margin: 2%; 
+		padding: 2% 2%; 
+		background-color: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0.1em 0.2em #da6709;
+	}
 .box h3 { font-size: 1.2em; color: rgb(255, 223, 13); font-weight: bold; margin: 1%;}
 .box a { color: #da6709; }
 .box p { text-align: left; margin-bottom: 1%; }
