@@ -1,0 +1,22 @@
+/*
+	Dev LucasSafeno (Lucas Tenorio)
+	@author lucassafeno
+	http://www.github.com/lucassafeno
+
+*/
+#carouselHeader img{
+	height: 300px;
+	width: 400px;
+}
+
+footer{
+
+	width: 100%;
+	color: white;
+	background-color: black;
+}
+
+.conteudo {
+	margin-top: 15%;
+}
+

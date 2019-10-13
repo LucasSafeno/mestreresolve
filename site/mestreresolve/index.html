@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed fixed-top">
 
 	<div class="container">
 
@@ -27,15 +27,15 @@
 		<ul class="navbar-nav mr-auto">
 
 			<li class="nav-item active">
-				<a class="nav-link" href="#">Inicio</a>
+				<a class="nav-link" href="index.html">Inicio</a>
 			</li>
 
 			<li class="nav-item">
-			<a class="nav-link" href="#">Serviços</a>
+			<a class="nav-link" href="servicos.html">Serviços</a>
 			</li>
 
 			<li class="nav-item">
-			<a class="nav-link" href="#">Depoimentos</a>
+			<a class="nav-link" href="depoismentos.html">Depoimentos</a>
 			</li>
 
 
@@ -56,7 +56,7 @@
 
 </nav> <!-- Nav !-->
 
-
+<div class="conteudo position-absolute fixed-top"></div>
 <header>
 		<!-- Carousel !-->
 			<div id="carouselHeader" class="carousel slide carousel-fade" data-ride="carousel">
@@ -107,7 +107,7 @@
 
 <section> <!-- Section !-->
 
-	<div class="card" style=" width: 100%; margin-bottom: 3%;">
+	<div class="card" style=" width: 100%; margin-bottom: 3%; margin-top: 3%; padding: 2%;">
 		<img src="img/mainLogo.png" style="width: 22em; height: 10em;" class="img-fluid card-img-top m-auto" alt="Logo Marca Mestre Resolve">
 		<div class="card-body">
 			<h5 class="card-title">Sobre a MestreResolve</h5>
@@ -118,6 +118,7 @@
 			<a  href="#" class="btn btn-primary">Confira nossos serviços</a>
 		</div>
 </section><!-- Section !-->
+<section>
 		<div class="card" style=" width: 100%; margin-bottom: 3%;">
 			<div class="card-body">
 			<h5 class="card-title">Faça seu <strong> orçamento sem compromisso</strong></h5>
@@ -129,9 +130,26 @@
 		</div>
 
 	</div> <!-- About MestreResolve !-->
+</section>
+<section>
+
+	<div class="card" style="width: 100%; margin-bottom: 3%;">
+		<div class="card-body">
+			<h5 class="card-title"><h5>Avalie nosso serviços</h5>
+			<p class="card-text">
+				Navegue no nosso site na sessão <a href="#">depoimentos</a> e veja algum dos 
+				nosso serviços. Fique avontade prar curtir, comentar e compartilhar. <br>
+				<strong style="font-size: 0.9em;">MestreResolve - Reformas e Pinturas</strong>
+			</p>
+		</div>
+
+	</div>
 
 
-<footer class="position-relative fixed-botto">
+
+</section>
+</div>
+<footer class="position-relative fixed-bottom">
 	<div class="rede-social list-inline">
 		<ul>
 			<li class="list-inline-item"><a href="#">Facebook</a></li>
