@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-
+		<div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
 	<div class="container">
@@ -46,9 +46,9 @@
 				</a>
 				<div class="dropdown-menu" id="navdrop">
 					<a class="dropdown-item" href="#">Facebook</a>
-					<a class="dropdown-item" href="#">What'sApp</a>
+					<a class="dropdown-item" href="https://api.whatsapp.com/send?phone=558198345-3475&text=Ola,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es">What'sApp</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">E-Mail</a>
+					<a class="dropdown-item" href="http://www.mresolve.com.br:2096/">E-Mail</a>
 				</div><!-- DropDown !-->
 			</li>
 		</ul>
@@ -56,7 +56,7 @@
 
 </nav> <!-- Nav !-->
 
-<div class="container">
+
 
 	<div class="card" style="width: 100%; margin-bottom: 10%; margin-top: 3%;">
 		<div class="card-body">
@@ -81,6 +81,62 @@
 			</p>
 		</div>
 
+				<!-- Modal-->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contatoModal">
+						Entre em contato
+					</button>
+	
+					<!-- contatoModal -->
+					<div id="contatoModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledbd="contatoModal" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="contatoModalLabel">Envie E-mail</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+										<span aria-hidden="true">&times</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form action="">
+	
+										<div class="form-group">
+											<label for="nome">Nome : </label>
+											<input type="text" class="form-control" name="nome">
+										</div>
+	
+	
+	
+											<div class="form-group">
+												<label for="email">E-mail :</label>
+												<input type="email" class="form-control" id="email" placeholder="Seu E-mail" name="email">
+											</div>
+	
+											<div class="form-group">
+												<label for="telefone">Telefone :</label>
+												<input type="text" class="form-control" maxlength="9" placeholder="Telefone" name="telefone">
+											</div>
+	
+											<div class="form-group">
+												<label for="mensagem"> Mensagem : </label>
+												<textarea name="mensagem" class="form-group" id="mensagem" rows="5"></textarea>
+												</div>
+												<button type="submit" class="btn btn-primary" name="mensagem">
+													Enviar
+												</button>
+	
+	
+									</div>
+									</form> <!-- Formulario Contato -->
+								</div>
+								<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+								</div>
+							</div>
+	
+						</div>	
+					</div> <!-- ContatoModal-->
+
+
 	</div>
 </div>
 
@@ -90,8 +146,7 @@
 	<div class="rede-social list-inline">
 		<ul>
 			<li class="list-inline-item"><a href="#">Facebook</a></li>
-			<li class="list-inline-item"><a href="#">Instragram</a></li>
-			<li class="list-inline-item"><a href="#">What'sApp</a></li>
+			<li class="list-inline-item"><a href="https://wa.me/81997694939?text=Gostaria%de%mais%informações">What'sApp</a></li>
 		</ul>
 	</div>
 
