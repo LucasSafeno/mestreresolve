@@ -8,7 +8,9 @@
 	height: 300px;
 	width: 400px;
 }
-
+.container {
+	margin-top: 10%;
+}
 footer{
 
 	width: 100%;

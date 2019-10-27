@@ -9,10 +9,8 @@
 </head>
 <body>
 
-<div class="containe">
+<div class="container">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed fixed-top">
-
-
 
 		<a class="navbar-brand mb-0 h1 ml-4" href="#">MestreResolve</a>
 
@@ -142,7 +140,7 @@
 								</button>
 							</div>
 							<div class="modal-body">
-								<form action="envio.php" name="form_contato" method="post"> 
+								<form action="envio.php" method="post"> 
 
 									<div class="form-group">
 										<label for="nome">Nome : </label>
@@ -162,12 +160,17 @@
 										</div>
 
 										<div class="form-group">
+										<label for="Assunto">Assunto : </label>
+										<input type="text" class="form-control" name="assunto">
+									</div>
+
+										<div class="form-group">
 											<label for="mensagem"> Mensagem : </label>
 											<textarea name="mensagem" class="form-group" id="mensagem" rows="5"></textarea>
 											</div>
-											<button type="submit" class="btn btn-primary" name="mensagem">
-												Enviar
-											</button>
+											<input type="submit" name="enviar" value="enviar">
+
+
 
 
 								</div>
@@ -203,14 +206,7 @@
 	</section>
 	</div>
 	<footer class="position-relative fixed-bottom">
-		<div class="rede-social list-inline">
-			<ul>
-				<li class="list-inline-item"><a href="#">Facebook</a></li>
-				<li class="list-inline-item"><a href="https://wa.me/81997694939?text=Gostaria%de%mais%informações">What'sApp</a></li>
-			</ul>
-		</div>
-
-
+		
 		<div class="texto-footer text-center">
 			<p>Todos os direitos reservados à MestreResolve</p>
 			<p>Desenvolvido por : <a href="http://www.github.com/lucassafeno">LucasTenorio</a></p>

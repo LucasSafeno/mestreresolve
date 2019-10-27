@@ -8,10 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-		<div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
-	<div class="container">
 
 
 	<a class="navbar-brand mb-0 h1 ml-4" href="#">MestreResolve</a>
@@ -58,7 +57,7 @@
 
 
 
-	<div class="card" style="width: 100%; margin-bottom: 10%; margin-top: 3%;">
+	<div class="card" style="width: 100%; margin-bottom: 10%; margin-top: 20%;">
 		<div class="card-body">
 			<h5 class="card-title"><h5>Nossos serviços</h5>
 			<p class="card-text">
@@ -81,66 +80,66 @@
 			</p>
 		</div>
 
-				<!-- Modal-->
 				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contatoModal">
-						Entre em contato
-					</button>
-	
-					<!-- contatoModal -->
-					<div id="contatoModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledbd="contatoModal" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="contatoModalLabel">Envie E-mail</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-										<span aria-hidden="true">&times</span>
-									</button>
-								</div>
-								<div class="modal-body">
-									<form action="">
-	
-										<div class="form-group">
-											<label for="nome">Nome : </label>
-											<input type="text" class="form-control" name="nome">
-										</div>
-	
-	
-	
-											<div class="form-group">
-												<label for="email">E-mail :</label>
-												<input type="email" class="form-control" id="email" placeholder="Seu E-mail" name="email">
-											</div>
-	
-											<div class="form-group">
-												<label for="telefone">Telefone :</label>
-												<input type="text" class="form-control" maxlength="9" placeholder="Telefone" name="telefone">
-											</div>
-	
-											<div class="form-group">
-												<label for="mensagem"> Mensagem : </label>
-												<textarea name="mensagem" class="form-group" id="mensagem" rows="5"></textarea>
-												</div>
-												<button type="submit" class="btn btn-primary" name="mensagem">
-													Enviar
-												</button>
-	
-	
-									</div>
-									</form> <!-- Formulario Contato -->
-								</div>
-								<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-								</div>
+					Entre em contato
+				</button>
+
+				<!-- contatoModal -->
+				<div id="contatoModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledbd="contatoModal" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="contatoModalLabel">Envie E-mail</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+									<span aria-hidden="true">&times</span>
+								</button>
 							</div>
-	
-						</div>	
-					</div> <!-- ContatoModal-->
+							<div class="modal-body">
+								<form action="envio.php" name="form_contato" method="post"> 
+
+									<div class="form-group">
+										<label for="nome">Nome : </label>
+										<input type="text" class="form-control" name="nome">
+									</div>
+
+
+
+										<div class="form-group">
+											<label for="email">E-mail :</label>
+											<input type="email" class="form-control" id="email " placeholder="Seu E-mail" name="email">
+										</div>
+
+										<div class="form-group">
+											<label for="telefone">Telefone :</label>
+											<input type="text" class="form-control" maxlength="9" placeholder="Telefone" name="telefone">
+										</div>
+
+										<div class="form-group">
+										<label for="Assunto">Assunto : </label>
+										<input type="text" class="form-control" name="assunto">
+										</div>
+
+
+										<div class="form-group">
+											<label for="mensagem"> Mensagem : </label>
+											<textarea name="mensagem" class="form-group" id="mensagem" rows="5"></textarea>
+											</div>
+											<input type="submit" name="enviar" value="enviar">
+
+
+								</div>
+								</form> <!-- Formulario Contato -->
+							</div>
+							<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+							</div>
+						</div>
+
+					</div>	
+				</div> <!-- ContatoModal-->
 
 
 	</div>
-</div>
-
-
 
 <footer class="absolute-bottom">
 	<div class="rede-social list-inline">
@@ -158,7 +157,6 @@
 
 
 </footer>
-
 
 
 </div><!-- Continer !-->
