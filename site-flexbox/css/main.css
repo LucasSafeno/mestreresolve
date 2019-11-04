@@ -32,7 +32,7 @@ header {
 
 header img{ width: 200px; }
 header nav li { display: inline; }
-header li a { color: #191C03; }
+header li a { color: #B0B6D9; }
 header li { margin: 0 15px; }
 header li:fist-child{margin-left: 0;}
 header li:last-child{margin-right: 0;}
@@ -45,7 +45,6 @@ header li:last-child{margin-right: 0;}
 	background-image: url(../img/destaque.jpg);
 	background-size: cover;
 	min-height: 100vh;
-	color: #F2E63D;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -53,8 +52,8 @@ header li:last-child{margin-right: 0;}
 	text-align: center;
 }
 
-.bg-destaque h1{ font-size: 2em; font-weight: bold; margin-top: 50px;}
-.bg-destaque h3 { font-size: 1.2em; margin-bottom: 20px; }
+.bg-destaque h1{ font-size: 2em; font-weight: bold; margin-top: 50px; color: #F2E63D;}
+.bg-destaque h3 { font-size: 1.2em; margin-bottom: 20px; color: #fff;}
 .bg-destaque .btn { background-color: #fff; padding: 10px 20px; border-radius: 5px; margin-top: 15px;  }
 .bg-color{ background-color: rgba(0, 0, 0, 0.5); padding: 0 0 30px 0; border-radius: 1px solid #ccc; margin-top: 100px }
 
@@ -68,4 +67,33 @@ header li:last-child{margin-right: 0;}
 }
 
 .sobre h3{ font-size: 2.5em; font-weight: bold; margin-bottom: 15px; color: #F2E63D; }
-.sobre p { font-size: 1em; margin-top: 35px; max-width: 800px; }
+.sobre p { font-size: 1em; margin-top: 35px; max-width: 800px; margin-bottom: 30px; }
+.sobre hr{ width: 200px; height: 3px; background-color: #B0B6D9; margin-bottom: 50px; border: none; }
+
+/* Newsletter */
+
+.newsletter {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px 50px;
+}
+
+.newsletter h3 { font-size: 2.5em; margin-bottom: 15px; color: #F2E63D;}
+.newsletter p{ font-size: 1em; margin-bottom: 15px; }
+.newsletter hr{ width: 200px; background-color: #B0B6D9; border: none;  height: 3px; margin-top: 15px;}
+.newsletter form{display: flex; align-items: center; justify-content: center; flex-wrap: wrap; width: 80%; max-width: 800px;}
+.newsletter input{ padding: 15px; border: 1px solid #F2E63D;  margin: 15px; flex: 1; text-align: center;}
+.newsletter .btn { padding: 15px; background-color: #B0B6D9; text-transform: uppercase; border-radius: 5px; }
+
+/*Footer*/
+footer{
+	width: 100%;
+	display: flex;
+	align-items: center;;
+	flex-direction: column;
+	padding: 50px;
+	background-color: #BF7534;
+}
