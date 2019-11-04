@@ -39,6 +39,7 @@ header li:last-child{margin-right: 0;}
 @media (max-width: 700px ){
 	header{flex-direction: column;}
 	header img {margin-bottom: 15px;}
+	header li a{ font-size: 20px; }
 }
 /* bg-destaque*/
 .bg-destaque{
@@ -56,6 +57,11 @@ header li:last-child{margin-right: 0;}
 .bg-destaque h3 { font-size: 1.2em; margin-bottom: 20px; color: #fff;}
 .bg-destaque .btn { background-color: #fff; padding: 10px 20px; border-radius: 5px; margin-top: 15px;  }
 .bg-color{ background-color: rgba(0, 0, 0, 0.5); padding: 0 0 30px 0; border-radius: 1px solid #ccc; margin-top: 100px }
+@media (max-width: 700px){
+	.bg-destaque .bg-color{
+		padding-top: 200px;
+	}
+}
 
 /*Sobre*/
 .sobre{
@@ -96,4 +102,15 @@ footer{
 	flex-direction: column;
 	padding: 50px;
 	background-color: #BF7534;
+	text-align: center;
+}
+footer li {
+	display: inline;
+}
+
+footer li a{ font-size: 1.5em; margin-right: 10px; }
+footer .fa-whatsapp { color: green; }
+footer p { font-size: 1em; margin-top: 10px; }
+@media (max-width: 700px){
+	footer p{ font-size: 11px; }
 }
