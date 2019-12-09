@@ -15,3 +15,143 @@ a{ text-decoration: none; }
 
 img{ display: block; max-width: 100%; }
 *{ box-sizing: border-box; }
+
+/*Superinfo*/
+
+.superinfo-bg{
+	background: #122ab2;
+	color: white;
+}
+.superinfo{
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 10px;
+}
+
+.superinfo p, .superinfo a{
+	margin: 0 10px 10px;
+}
+
+.superinfo a{
+	color: white;
+}
+
+/* Menu */
+
+.menu-bg {
+	background: #2c7cff;
+}
+
+.menu{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu a{
+	color: white;
+}
+
+.menu-logo a{
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+.menu-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-nav a{
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+}
+
+.menu-nav a:hover{
+	color: #122ab2;
+}
+
+/* introdução */
+.introducao {
+	font-size: 3em;
+	line-height: 1;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 10px;
+}
+
+
+/* Sobre */
+.sobre{
+	border-top: 2px solid #2c70ff;
+	border-bottom: 2px solid #2c70ff;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sobre-info{
+	flex: 2 1 300px;
+	margin: 0 10px;
+}
+
+.sobre-info h1{
+	font-size: 3em;
+	margin-bottom: .5em;
+}
+
+.sobre-info p{
+	font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7C7C7C;
+}
+
+.sobre-img{
+	flex:1 1 160px;
+	margin: 0 10px;
+}
+
+/* Portifolio */
+.portifolio{
+	max-width: 960px;
+	margin: 60px auto;
+}
+
+.portifolio h1{
+	font-size: 3em;
+	margin: 0 60px 10px; 
+}
+
+.portifolio-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portifolio-item{
+	flex: 1 1 250px;
+	margin: 10px;
+}
+
+.portifolio-item h2{
+	font-size: 3em;
+	color: #a4a4a4;
+	background: #F7F7f7;
+	padding: 60px 20px;
+}
+
+/* Serviço */
+.servico {
+	background: 
+}
