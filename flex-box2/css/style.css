@@ -165,6 +165,7 @@ img{ display: block; max-width: 100%; }
 	background: #F7F7f7;
 	display: flex;
 	flex-wrap: wrap;
+	align-items: flex-end;
 }
 
 .servico-item{
